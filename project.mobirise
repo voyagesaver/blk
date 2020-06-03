@@ -57,7 +57,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 20,
+    "uniqCompNum": 21,
     "versionPublish": "4.12.3"
   },
   "pages": {
@@ -129,6 +129,23 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<div class=\"ec-cart-widget\"></div>\n<div>\n[JS_CODE_0]\n[JS_CODE_1]\n</div>",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-k",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script data-cfasync=\"false\" type=\"text/javascript\" src=\"https://app.ecwid.com/script.js?18287097&data_platform=code&data_date=2020-06-03\" charset=\"utf-8\"></script>",
+            "<script type=\"text/javascript\">Ecwid.init();</script>"
+          ]
         },
         {
           "alias": "mobirise4-blocks/components",
