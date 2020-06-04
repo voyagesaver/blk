@@ -832,15 +832,15 @@ blockquote {
     margin-bottom: 1.5rem;
   }
 }
-#custom-html-l {
+#custom-html-p {
   /* Type valid CSS here */
 }
-#custom-html-l div {
+#custom-html-p div {
   padding: 80px 0;
   color: #777;
   text-align: center;
 }
-#custom-html-l p {
+#custom-html-p p {
   font-size: 60px;
   color: #777;
 }
@@ -857,8 +857,8 @@ blockquote {
   color: #777;
 }
 .cid-s0UfccF06V {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 0rem;
+  padding-bottom: 5rem;
   background-color: #ffffff;
 }
 .cid-s0UfccF06V .mbr-text {
