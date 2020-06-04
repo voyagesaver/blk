@@ -687,39 +687,39 @@ blockquote {
   bottom: -35px;
   margin-left: 1rem;
 }
-.cid-rZLE4Nbcut {
+.cid-s0YlZ4zcol {
   padding-top: 60px;
   padding-bottom: 75px;
   background-image: url("../../../assets/images/home-2000x2998.jpg");
 }
-.cid-rZLE4Nbcut .mbr-arrow {
+.cid-s0YlZ4zcol .mbr-arrow {
   background: #232323 !important;
   opacity: .7;
 }
-.cid-rZLE4Nbcut .mbr-arrow i {
+.cid-s0YlZ4zcol .mbr-arrow i {
   color: #ffffff !important;
 }
-.cid-rZLE4Nbcut .underline .line {
+.cid-s0YlZ4zcol .underline .line {
   width: 2rem;
   height: 1px;
   background: #ffffff;
   display: inline-block;
 }
-.cid-rZLE4Nbcut .animated-element,
-.cid-rZLE4Nbcut .typed-cursor {
+.cid-s0YlZ4zcol .animated-element,
+.cid-s0YlZ4zcol .typed-cursor {
   color: #ffffff;
 }
 @media (max-width: 767px) {
-  .cid-rZLE4Nbcut .typed-text {
+  .cid-s0YlZ4zcol .typed-text {
     text-align: center;
   }
 }
-.cid-rZLE4Nbcut .mbr-section-title {
+.cid-s0YlZ4zcol .mbr-section-title {
   text-align: center;
 }
-.cid-rZLE4Nbcut .mbr-text,
-.cid-rZLE4Nbcut .typed-text,
-.cid-rZLE4Nbcut .mbr-section-btn {
+.cid-s0YlZ4zcol .mbr-text,
+.cid-s0YlZ4zcol .typed-text,
+.cid-s0YlZ4zcol .mbr-section-btn {
   text-align: center;
 }
 .cid-rZLE9pr74T {
@@ -832,17 +832,40 @@ blockquote {
     margin-bottom: 1.5rem;
   }
 }
-#custom-html-p {
-  /* Type valid CSS here */
+.cid-s0YkwDdBdT {
+  padding-top: 60px;
+  padding-bottom: 75px;
+  background-image: url("../../../assets/images/home-2000x2998.jpg");
 }
-#custom-html-p div {
-  padding: 80px 0;
-  color: #777;
+.cid-s0YkwDdBdT .mbr-arrow {
+  background: #232323 !important;
+  opacity: .7;
+}
+.cid-s0YkwDdBdT .mbr-arrow i {
+  color: #ffffff !important;
+}
+.cid-s0YkwDdBdT .underline .line {
+  width: 2rem;
+  height: 1px;
+  background: #ffffff;
+  display: inline-block;
+}
+.cid-s0YkwDdBdT .animated-element,
+.cid-s0YkwDdBdT .typed-cursor {
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .cid-s0YkwDdBdT .typed-text {
+    text-align: center;
+  }
+}
+.cid-s0YkwDdBdT .mbr-section-title {
   text-align: center;
 }
-#custom-html-p p {
-  font-size: 60px;
-  color: #777;
+.cid-s0YkwDdBdT .mbr-text,
+.cid-s0YkwDdBdT .typed-text,
+.cid-s0YkwDdBdT .mbr-section-btn {
+  text-align: center;
 }
 #custom-html-f {
   /* Type valid CSS here */
