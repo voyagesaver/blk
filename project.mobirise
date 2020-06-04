@@ -57,7 +57,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 26,
+    "uniqCompNum": 28,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/blk-128x128.png",
@@ -342,45 +342,38 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
+            ".mbr-section-title": {
+              "margin-bottom": "0",
+              "padding-left": "15px",
+              "color": "#000000"
+            },
             ".mbr-text": {
               "margin-bottom": "0",
-              "font-weight": "500",
-              "color": "#cccccc"
+              "margin-top": "15px",
+              "opacity": ".7",
+              "padding-left": "15px",
+              "color": "#000000"
             },
-            "& when (@transparent)": {
-              ".content__block": {
-                "padding": "60px 0 55px",
-                "border-radius": "10px",
-                "border": "2px solid @borderColor",
-                "background-color": "transparent"
-              }
-            },
-            "& when not (@transparent)": {
-              ".content__block": {
-                "padding": "60px 0 55px",
-                "border-radius": "10px",
-                "border": "none",
-                "background-color": "@contentColor"
-              }
-            },
-            ".mbr-section-title": {
-              "margin-bottom": "15px",
-              "color": "#ffffff"
+            ".image img": {
+              "max-width": "100%",
+              "height": "auto",
+              "border-radius": "20px",
+              "object-fit": "cover"
             },
             "@media (max-width: 767px)": {
-              ".content__block": {
-                "padding": "30px 0"
+              ".text__block": {
+                "margin-top": "1.5rem"
               }
             }
           },
-          "_name": "content4",
-          "_customHTML": "<section class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n         <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"1\" max=\"5\" step=\"1\" value=\"3\">\n        <select name=\"alignContent\" title=\"Align Content\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <header>Background Content</header>\n        <input type=\"checkbox\" title=\"Transparent Conntent\" name=\"transparent\">\n        <input type=\"color\" title=\"Border Color\" value=\"#ebeaed\" name=\"borderColor\" condition=\"transparent\">\n        <input type=\"color\" title=\"Content Color\" value=\"#000000\" name=\"contentColor\" condition=\"!transparent\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/bg1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#2f1893\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row\" mbr-class=\"{'justify-content-center' : alignContent == 2, 'justify-content-end' : alignContent == 3}\">\n           <div class mbr-class=\"{'col-xl-6 col-lg-6 col-md-8': contentWidth == 1, 'col-xl-7 col-lg-7 col-md-9': contentWidth == 2, 'col-xl-8 col-lg-8 col-md-10': contentWidth == 3,'col-xl-9 col-lg-9': contentWidth == 4, 'col-xl-10 col-lg-10': contentWidth == 5}\">\n                  <div class=\"content__block text-center\">\n                      <div class=\"row justify-content-center\">\n                          <div class=\"col-xl-9 col-lg-10 col-11\">\n                      <h2 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">How <b>blk.</b> is adapting to<br>Covid-19</h2>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\"><b>blk.</b> works with a fulfillment partner to print and ship our orders. We’re in regular communication with them for the latest updates of what’s going on. \n<br>Our fulfillment partner is still operating and we’re continuing to accept orders. Fulfillment and shipping will take longer but your order will reach you. \n<br>Your support means a lot to us, especially during this time. Stay safe and take care of yourselves.</p>\n                          </div> \n              </div>\n               </div>\n            </div>\n            </div>\n        </div>\n</section>",
-          "_cid": "s0UfccF06V",
-          "_anchor": "content4-o",
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverse\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/bg1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#2f1893\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row align-items-center justify-content-center\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n           <div class=\"col-lg-1\"></div>\n            <div class=\"col-xl-2 col-md-3 col-sm-4 col-6 image\">\n                <img src=\"@PROJECT_PATH@/assets/images/home-320x480.jpg\" alt=\"Mobirise\" title>\n            </div>\n            <div class=\"col-xl-7 col-lg-8 col-md-9 text-white text__block\">\n               <h2 class=\"mbr-section-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">How blk. is adapting to\n Covid-19</h2>\n               <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-if=\"showText\"><b>blk.</b> works with a fulfillment partner to print and ship our orders.<br> We’re in regular communication with them for the latest updates of what’s going on. \n<br>Our fulfillment partner is still operating and we’re continuing to accept orders. <br>Fulfillment and shipping will take longer but your order will reach you. \n<br>Your support means a lot to us, especially during this time. Stay safe and take care of yourselves.<br></p>\n               </div>\n            </div>\n        </div>\n</section>",
+          "_cid": "s0Vv988Et6",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content5-r"
         },
         {
           "alias": "mobirise4-blocks/components",
