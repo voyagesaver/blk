@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-05-22_2036",
+    "name": "lifeinblk",
     "currentPage": "categories.html",
     "theme": {
       "name": "marketm4",
@@ -59,7 +59,18 @@
     "imageResize": true,
     "uniqCompNum": 26,
     "versionPublish": "4.12.3",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/blk-128x128.png",
+    "cssOptimize": false,
+    "lazyLoad": false,
+    "lazyType": "nothing",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "pwa-switcher": false
   },
   "pages": {
     "index.html": {
