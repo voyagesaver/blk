@@ -71,7 +71,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "google-analytics": "We focus on quality, We take pride in our designs\nAnd We keep it minimalistic as much as possible!\nShop our new collection now"
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
