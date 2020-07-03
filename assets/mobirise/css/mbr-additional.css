@@ -687,39 +687,39 @@ blockquote {
   bottom: -35px;
   margin-left: 1rem;
 }
-.cid-s3npFwi9lv {
+.cid-s3EKHbTOqq {
   padding-top: 60px;
   padding-bottom: 75px;
   background-image: url("../../../assets/images/home-2000x2998.jpg");
 }
-.cid-s3npFwi9lv .mbr-arrow {
+.cid-s3EKHbTOqq .mbr-arrow {
   background: #232323 !important;
   opacity: .7;
 }
-.cid-s3npFwi9lv .mbr-arrow i {
+.cid-s3EKHbTOqq .mbr-arrow i {
   color: #ffffff !important;
 }
-.cid-s3npFwi9lv .underline .line {
+.cid-s3EKHbTOqq .underline .line {
   width: 2rem;
   height: 1px;
   background: #ffffff;
   display: inline-block;
 }
-.cid-s3npFwi9lv .animated-element,
-.cid-s3npFwi9lv .typed-cursor {
+.cid-s3EKHbTOqq .animated-element,
+.cid-s3EKHbTOqq .typed-cursor {
   color: #ffffff;
 }
 @media (max-width: 767px) {
-  .cid-s3npFwi9lv .typed-text {
+  .cid-s3EKHbTOqq .typed-text {
     text-align: center;
   }
 }
-.cid-s3npFwi9lv .mbr-section-title {
+.cid-s3EKHbTOqq .mbr-section-title {
   text-align: center;
 }
-.cid-s3npFwi9lv .mbr-text,
-.cid-s3npFwi9lv .typed-text,
-.cid-s3npFwi9lv .mbr-section-btn {
+.cid-s3EKHbTOqq .mbr-text,
+.cid-s3EKHbTOqq .typed-text,
+.cid-s3EKHbTOqq .mbr-section-btn {
   text-align: center;
 }
 .cid-rZLE9pr74T {
@@ -1748,6 +1748,45 @@ blockquote {
 .cid-s3nt5hRSV6 .typed-text,
 .cid-s3nt5hRSV6 .mbr-section-btn {
   text-align: center;
+}
+.cid-s3EEE1TDCT {
+  padding-top: 45px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-s3EEE1TDCT .mbr-text {
+  position: relative;
+}
+.cid-s3EEE1TDCT .mbr-text:before {
+  color: #ffffff;
+  content: "\201C";
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.2em;
+  vertical-align: -0.4em;
+  position: absolute;
+  top: 10px;
+  left: -2rem;
+}
+.cid-s3EEE1TDCT .mbr-text:after {
+  color: #ffffff;
+  content: "\201D";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.45em;
+  position: absolute;
+  bottom: 10px;
+  right: -2rem;
+}
+@media (max-width: 767px) {
+  .cid-s3EEE1TDCT .mbr-text:after,
+  .cid-s3EEE1TDCT .mbr-text:before {
+    display: none;
+  }
+}
+.cid-s3EEE1TDCT .mbr-section-title,
+.cid-s3EEE1TDCT .logo {
+  color: #d35400;
 }
 #custom-html-f {
   /* Type valid CSS here */
