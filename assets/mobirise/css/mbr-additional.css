@@ -1289,45 +1289,6 @@ blockquote {
     margin-bottom: 1.5rem;
   }
 }
-.cid-s3EEE1TDCT {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
-}
-.cid-s3EEE1TDCT .mbr-text {
-  position: relative;
-}
-.cid-s3EEE1TDCT .mbr-text:before {
-  color: #ffffff;
-  content: "\201C";
-  font-size: 3em;
-  line-height: 0.1em;
-  margin-right: 0.2em;
-  vertical-align: -0.4em;
-  position: absolute;
-  top: 10px;
-  left: -2rem;
-}
-.cid-s3EEE1TDCT .mbr-text:after {
-  color: #ffffff;
-  content: "\201D";
-  font-size: 3em;
-  line-height: 0.1em;
-  vertical-align: -0.45em;
-  position: absolute;
-  bottom: 10px;
-  right: -2rem;
-}
-@media (max-width: 767px) {
-  .cid-s3EEE1TDCT .mbr-text:after,
-  .cid-s3EEE1TDCT .mbr-text:before {
-    display: none;
-  }
-}
-.cid-s3EEE1TDCT .mbr-section-title,
-.cid-s3EEE1TDCT .logo {
-  color: #d35400;
-}
 #custom-html-f {
   /* Type valid CSS here */
 }
