@@ -1290,7 +1290,7 @@ blockquote {
   }
 }
 .cid-s3EEE1TDCT {
-  padding-top: 90px;
+  padding-top: 0px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
@@ -1581,6 +1581,7 @@ blockquote {
   min-height: 77px;
   transition: all 0.3s;
   background: #131313;
+  background: none;
 }
 .cid-siCUI6HXTj .navbar.opened {
   transition: all 0.3s;
